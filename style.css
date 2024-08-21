@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #09090b
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100px;
+    background-color: #111827;
+}
+
+.logo {
+    flex: 20%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.logo h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 34px;
+    color: #ffffff;
+}
+
+.linksbar {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.linksbar a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.linksbar a:hover {
+    color: black;
+    background-color: #e0e0e0;
+    box-shadow: rgba(89, 89, 89, 0.17) 0px 54px 55px, rgba(140, 140, 140, 0.484) 0px -12px 30px, rgba(255, 255, 255, 0.176) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.208) 0px -3px 5px;
+
+}
+
+#fc {
+    padding: 10px 30px;
+    box-shadow: rgba(100, 100, 100, 0.157) 0px 54px 55px, rgba(72, 72, 72, 0.484) 0px -12px 30px, rgba(101, 101, 101, 0.176) 0px 4px 6px, rgba(85, 85, 85, 0.17) 0px 12px 13px, rgba(79, 79, 79, 0.208) 0px -3px 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#fc:hover {
+    font-size: 15px;
+    color: #fff;
+    background-color: #111827;
+    box-shadow: rgba(172, 171, 171, 0.254) 0px 54px 55px, rgb(156, 156, 156) 0px -12px 30px, rgb(154, 154, 154) 0px 4px 6px, rgb(144, 144, 144) 0px 12px 13px, rgb(133, 133, 133) 0px -3px 5px;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    padding-top: 110px;
+    /* background-color: gray; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.headline {
+    flex: 40%;
+    margin-left: 10%;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p {
+    color: #fff;
+    text-align: left;
+}
+
+.img-headline {
+    flex: 40%;
+    margin-right: 10%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.contact-btn {
+    display: inline-block;
+    background-color: #0f172a;
+    border-radius: 8px;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 106, 255, 0.122) 0px 54px 55px, rgba(0, 115, 255, 0.173) 0px -12px 30px, rgba(0, 81, 255, 0.139) 0px 4px 6px, rgba(0, 55, 255, 0.168) 0px 12px 13px, rgba(1, 52, 191, 0.148) 0px -3px 5px;
+}
+
+.contact-btn:hover {
+    box-shadow: rgba(0, 8, 255, 0.25) 0px 54px 55px, rgba(0, 21, 255, 0.12) 0px -12px 30px, rgba(0, 0, 255, 0.12) 0px 4px 6px, rgba(0, 47, 255, 0.17) 0px 12px 13px, rgba(0, 42, 255, 0.09) 0px -3px 5px;
+    font-size: 15px;
+}
+
+section {
+    display: inline-block;
+    /* border: 1px solid pink; */
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+    width: 90%;
+}
+
+section h2 {
+    color: white;
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: "Dancing Script", cursive;
+}
+
+.serviços {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #1c2843;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 100, 0.157) 0px 54px 55px, rgba(72, 72, 72, 0.484) 0px -12px 30px, rgba(101, 101, 101, 0.176) 0px 4px 6px, rgba(85, 85, 85, 0.17) 0px 12px 13px, rgba(79, 79, 79, 0.208) 0px -3px 5px;
+}
+
+.card h3,
+p {
+    color: #FFF;
+}
+
+.card:hover {
+    background-color: #172554;
+    padding: 40px;
+    box-shadow: rgba(255, 255, 255, 0.424) 0px 54px 55px, rgba(255, 255, 255, 0.413) 0px -12px 30px, rgba(255, 255, 255, 0.407) 0px 4px 6px, rgba(255, 255, 255, 0.419) 0px 12px 13px, rgba(255, 255, 255, 0.422) 0px -3px 5px;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.card:hover .card-text {
+    display: none;
+}
+
+.card:hover .texto-oculto {
+    display: block;
+}
+
+.texto-oculto {
+    display: none;
+}
+
+footer {
+    border-top: 5px solid #190e9abe;
+    margin-top: 100px;
+    height: 300px;
+    background-image: linear-gradient(180deg, #142047, #182237, black);
+    text-align: center;
+}
+
+footer h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 34px;
+    color: #ffffff;
+    margin: 0;
+    margin-top: 35px;
+}
+
+.zap {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
